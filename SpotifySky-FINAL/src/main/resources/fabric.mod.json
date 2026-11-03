@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifysky",
+  "version": "${version}",
+  "name": "Spotify Sky",
+  "description": "Beautiful animated sky-style now-playing card for Spotify tracks. 10 styles, extremely customizable, low FPS impact.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.spotifysky.SpotifySkyClient"],
+    "modmenu": ["com.spotifysky.gui.ModMenuIntegration"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
